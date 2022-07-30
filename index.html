@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+<nav class="navbar">
+       <h1 class="logo">O'raya</h1>
+       <ul class="nav-links">
+           <li class="active">Home<a href="#"></a></li>
+           <li><a href="#">Tours</a></li>
+           <li><a href="#">Explore</a></li>
+           <li><a href="#">About</a></li>
+           <li class="ctn"><a href="#">Contacts</a></button>
+       </ul>
+       <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+      </div>
+    </nav>    
+    <header>
+        <div class="header-content">
+            <h2>Explore Our Tasty Dishes</h2>
+            <div class="line"></div>
+            <h1>Satisfy Your Tastebuds</h1>
+            <button class="ctn-one"><a href="">Order Now</a></button>
+        </div>
+    </header>
+
+    <!-- Events -->
+        <section class="events">
+            <div class="title">
+                <h1>A World Of Varieties</h1>
+                <div class="line"></div>
+            </div>
+           <div class="event-container">  
+            <div class="row">
+                <div class="col">
+                    <img src="img-1.jpg" alt="">
+                    <h4>Our Fresh Sea Foods </h4>
+                    <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing el<br>it. Soluta repellat pariatur ad excepturi laboriosam <br>aperiam nost<br>rum. Maxime labore reiciendis in ducimus <br>explicabo nesciunt at similique dolor, modi iure, <br>rem repellat?</p>
+                    <button class="ctn"><a href="">Learn More</a></button>
+                </div>
+            </div>
+               <div class="row">
+                  <div class="col">
+                     <img src="img-4.jpg" alt="">
+                     <h4>Intercontinental Dishes</h4>
+                     <p>Lorem ipsum dolor sit amet cons<br>ectetur adipisicing el<br>it. Soluta repellat pariatur ad excepturi laboriosam <br>aperiam nostrum. Maxime labore reiciendis <br>in ducim us explicabo nesciunt at similique <br>dolor, modi iure, rem repellat?</p>
+                     <button class="ctn"><a href="">Learn More</a></button>
+                  </div>
+               </div>
+            </div>
+        </section>
+
+        <!-- Explore -->
+        <section class="explore">
+            <div class="explore-content">   
+                <h1>Book  A Reservation </h1>
+                <div class="line"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid corporis pariatur aliquam quas perspiciatis eveniet eius voluptates nemo iusto! Voluptatem qui illum libero tenetur quisquam. Iure ut nihil ab!</p>
+                <button class="ctn"><a href="">Learn More</a></button>
+            </div>
+        </section>
+
+        <!--tours-->
+        <section class="tours">
+            
+            <div class="row-two">
+                <div class="col-two">
+                    <h1>Top Dishes For August</h1>
+                    
+                    <div class="line"></div>
+                   
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat maiores dolore ullam laudantium. Distinctio, labore consectetur accusantium consequatur iste pariatur harum fugit. At, corrupti perspiciatis? Modi ut molestias praesentium
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, minus necessitatibus. Placeat, illum? Consectetur maiores laborum odit minus, doloribus quibusdam excepturi non, reiciendis dignissimos provident officia, temporibus ratione? Esse, libero.
+                    </p>
+                    <button class="ctn"><a href="">Learn More</a></button>
+                </div>
+                
+                <div class="image-gallery">
+                    <img src="img-8.jpg" alt=""class="last-image">
+                    <img src="img-9.jpg" alt=""class="last-image">
+                    <img src="img-10.jpg" alt=""class="last-image">
+                    <img src="img-11.jpg" alt=""class="last-image">
+                </div>
+               
+            </div>
+        </section>
+
+        <footer>
+          <p>125 Allen Avenue, Ikeja, Lagos,Nigeria|Phone: 08021293940| Email: mustaphaakanbi813@gmail.com</p>
+          <p class="footer-text">Copyright &copy 2022 musty-sama</p>
+
+        </footer>
+    <script>
+        const burger = document.querySelector(".burger")
+        const navlinks = document.querySelector(".nav-links")
+
+        burger.addEventListener("click",()=>{
+            navlinks.classList.toggle("mobile-menu")
+        })
+        
+
+    </script>
+</body>
+</html>
